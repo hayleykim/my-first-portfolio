@@ -21,10 +21,10 @@
     "yarn": "^1.22.18"
   },
   "scripts": {
-    "start": "cargo start",
-    "build": "CI='' cargo build",
-    "test": "cargo test",
-    "eject": "cargo-scripts eject"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
