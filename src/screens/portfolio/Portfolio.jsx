@@ -7,7 +7,6 @@ import Card from 'react-bootstrap/Card';
 import Image from 'react-bootstrap/Image';
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
-import { ModalBody, ModalFooter, ModalHeader, ModalTitle } from 'react-bootstrap';
 
 function Portfolio() {
     const [modalShow, setModalShow] = useState(false);
@@ -22,24 +21,24 @@ function Portfolio() {
                 arial-labelledby="contained-modal-title-vcenter"
                 centered
             >
-                <ModalHeader>
-                    <ModalTitle id="contained-modal-title-vcenter">
+                <Modal.Header>
+                    <Modal.Title id="contained-modal-title-vcenter">
                         
                         {data.title}
-                    </ModalTitle>
-                </ModalHeader>
+                    </Modal.Title>
+                </Modal.Header>
 
-                <ModalBody>
+                <Modal.Body>
                     <p>{data.summary}</p>
                     <Image src={data.image} style={{ width: '200px' }} />
-                </ModalBody>
+                </Modal.Body>
 
                 <a id='portfolio__modal__link' href={data.link} target='_blank' rel='noreferrer'> Go to the website</a>
-                <ModalFooter>
+                <Modal.Footer>
                     <div>Technologies used: </div>
                     <p style={{ fontSize: '0.7rem', marginRight: 'auto' }}>{data.tech}</p>
                     <Button onClick={() => setModalShow(false)}>Close</Button>
-                </ModalFooter>
+                </Modal.Footer>
             </Modal>
         )
     }

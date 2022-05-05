@@ -20,63 +20,63 @@ const portfolioData = [
     {
         image: two,
         link: 'https://www.w3schools.com/sass/sass_functions_color.php',
-        title: 'dooley one',
+        title: 'dooley two',
         summary: 'a image of cute little dooreys',
         tech: 'React'
     },
     {
         image: three,
         link: 'https://www.w3schools.com/sass/sass_functions_color.php',
-        title: 'dooley one',
+        title: 'dooley three',
         summary: 'a image of cute little dooreys',
         tech: 'React'
     },
     {
         image: four,
         link: 'https://www.w3schools.com/sass/sass_functions_color.php',
-        title: 'dooley one',
+        title: 'dooley four',
         summary: 'a image of cute little dooreys',
         tech: 'React'
     },
     {
         image: five,
         link: 'https://www.w3schools.com/sass/sass_functions_color.php',
-        title: 'dooley one',
+        title: 'dooley five',
         summary: 'a image of cute little dooreys',
         tech: 'React'
     },
     {
         image: six,
         link: 'https://www.w3schools.com/sass/sass_functions_color.php',
-        title: 'dooley one',
+        title: 'dooley six',
         summary: 'a image of cute little dooreys',
         tech: 'React'
     },
     {
         image: seven,
         link: 'https://www.w3schools.com/sass/sass_functions_color.php',
-        title: 'dooley one',
+        title: 'dooley seven',
         summary: 'a image of cute little dooreys',
         tech: 'React'
     },
     {
         image: eight,
         link: 'https://www.w3schools.com/sass/sass_functions_color.php',
-        title: 'dooley one',
+        title: 'dooley eight',
         summary: 'a image of cute little dooreys',
         tech: 'React'
     },
     {
         image: nine,
         link: 'https://www.w3schools.com/sass/sass_functions_color.php',
-        title: 'dooley one',
+        title: 'dooley nine',
         summary: 'a image of cute little dooreys',
         tech: 'React'
     },
     {
         image: ten,
         link: 'https://www.w3schools.com/sass/sass_functions_color.php',
-        title: 'dooley one',
+        title: 'dooley ten',
         summary: 'a image of cute little dooreys',
         tech: 'React'
     }
