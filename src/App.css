@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,600;1,300&display=swap');
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+
 .App {
   font-family: 'Nunito', sans-serif;
 }
@@ -15,3 +20,12 @@
 #tsparticles{
   height: 100vh;
 }
+
+/*
+"scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+*/
