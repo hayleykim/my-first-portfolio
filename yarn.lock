@@ -3552,6 +3552,11 @@ detective@^5.2.0:
     defined "^1.0.0"
     minimist "^1.1.1"
 
+devicon-react-svg@^0.2.3:
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/devicon-react-svg/-/devicon-react-svg-0.2.3.tgz#7960a46d327fe8ca83f955c60d6dcfa3e518408f"
+  integrity sha512-sy81d4yTglUNextq3Q4sUI1LB+gUrgfRzyNG3H3Skg36TQZ/WFlWwXFhgJ+53kZ9vU0kg33tgjHKhI8LX3DDZw==
+
 didyoumean@^1.2.2:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/didyoumean/-/didyoumean-1.2.2.tgz#989346ffe9e839b4555ecf5666edea0d3e8ad037"
