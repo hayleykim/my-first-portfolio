@@ -15,7 +15,10 @@ function createLinks() {
 function NavigationBar() {
   return (
     <div id="home">
-        <Navbar className="navigation__container" expand="md">
+        <Navbar className="navigation__container" 
+        style={{ zIndex: '2', position: 'fixed', top: '0', width: '100%'}}
+        collapseOnSelect
+        expand="md">
             <Navbar.Brand style={{ marginLeft: '1rem'}} href="#home">Hayley Kim</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse style={{ justifyContent: 'flex-end', marginRight: '1rem', borderColor: 'none'}}>

@@ -4,6 +4,7 @@ import Navigation from './screens/navigationBar/NavigationBar';
 import Particles from './Particles';
 //import ParticleAnimation from 'react-particle-animation';
 import Header from './screens/header/Header';
+import AboutMe from './screens/aboutMe/AboutMe';
 
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
       <Navigation />
       <Header />
       <Particles />
-      
+      <AboutMe />
 
     </div>
   );
